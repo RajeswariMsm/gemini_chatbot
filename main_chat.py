@@ -1,4 +1,4 @@
-rom dotenv import load_dotenv           # For loading environment variables from a .env file
+from dotenv import load_dotenv           # For loading environment variables from a .env file
 import streamlit as st                   # Streamlit for building web apps
 import os
 import google.generativeai as genai      # Gemini generative AI SDK
